@@ -23,7 +23,7 @@ function App() {
       <motion.div 
         className="fixed top-0 left-0 w-full z-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('./images/singapore-skyline.jpg')`,
+          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/1280px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',
