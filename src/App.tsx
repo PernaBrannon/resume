@@ -10,29 +10,37 @@ import Contact from './components/Contact'
 
 function App() {
   const [scrollY, setScrollY] = useState(0)
+  const [documentHeight, setDocumentHeight] = useState(0)
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
+    const updateDocumentHeight = () => {
+      setDocumentHeight(document.documentElement.scrollHeight)
+    }
+    
     window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    window.addEventListener('resize', updateDocumentHeight)
+    updateDocumentHeight() // Initial calculation
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('resize', updateDocumentHeight)
+    }
   }, [])
 
   return (
     <div className="relative min-h-screen">
       {/* Singapore Parallax Background */}
       <motion.div 
-        className="fixed top-0 left-0 w-full z-0"
+        className="fixed top-0 left-0 w-full z-0 bg-singapore-responsive"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1920&q=80'), url('/resume/images/singapore-cityscape.jpg')`,
           backgroundColor: '#1e40af', // Blue fallback to test if element is rendering
-          backgroundSize: 'cover',
-          backgroundPosition: 'center top',
-          backgroundRepeat: 'no-repeat',
-          height: '200vh',
+          height: Math.max(documentHeight + 500, window.innerHeight * 3), // Dynamic height based on document or 300vh minimum
           minHeight: '100vh'
         }}
         animate={{
-          y: scrollY * -0.3,
+          y: scrollY * -0.2, // Reduced parallax speed
         }}
         transition={{ type: "tween", ease: "linear" }}
       />

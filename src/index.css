@@ -10,6 +10,19 @@
   background-attachment: fixed;
 }
 
+/* Responsive background sizing */
+.bg-singapore-responsive {
+  background-size: auto 100vh; /* Show full height of image on mobile */
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .bg-singapore-responsive {
+    background-size: 100% auto; /* Show full width on desktop */
+  }
+}
+
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
