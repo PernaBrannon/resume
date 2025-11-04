@@ -23,7 +23,7 @@ function App() {
       <motion.div 
         className="fixed top-0 left-0 w-full z-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('/resume/images/singapore-skyline.jpg')`,
+          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('./images/singapore-skyline.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',

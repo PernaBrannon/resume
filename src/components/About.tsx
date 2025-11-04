@@ -14,28 +14,10 @@ const About: React.FC = () => {
       <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
       <div className="space-y-4 text-gray-700 dark:text-gray-300">
         <p className="text-lg leading-relaxed">
-          I am a dedicated and analytical Computer Science graduate from Rutgers University with a strong foundation in 
-          data analysis, software engineering, and problem-solving. Currently based in Shenzhen, China, I am actively 
-          seeking full-time opportunities in Singapore where I can contribute my technical expertise and passion for 
-          data-driven solutions.
+          Seeking full-time, sponsored Data Analyst or Junior Software Engineer role in Singapore. Recent Computer Science graduate with proven capacity to leverage advanced Python (NumPy, Pandas, Scikit-learn) and SQL to transform complex, raw data into actionable financial/business intelligence. Possesses practical experience with AWS cloud databases and Git version control, ready to contribute immediately to an MNC environment.
         </p>
         <p className="text-lg leading-relaxed">
-          My academic journey has equipped me with comprehensive knowledge in database management, machine learning, 
-          and full-stack development. I have hands-on experience with Python data analysis libraries, cloud computing 
-          platforms like AWS, and various programming languages including Java, C, and JavaScript. My project portfolio 
-          demonstrates my ability to design efficient algorithms, implement complex database schemas, and create 
-          user-friendly web applications.
-        </p>
-        <p className="text-lg leading-relaxed">
-          What sets me apart is my analytical mindset combined with practical implementation skills. I excel at 
-          transforming raw data into actionable insights and building scalable solutions that address real-world 
-          business challenges. I am particularly interested in leveraging my technical skills in Singapore's dynamic 
-          tech ecosystem, where innovation and data science drive business growth.
-        </p>
-        <p className="text-lg leading-relaxed">
-          As a U.S. citizen with international experience, I bring a global perspective to local challenges. I am 
-          committed to continuous learning and staying current with emerging technologies in the rapidly evolving 
-          fields of data science and software engineering.
+          Currently based in Shenzhen, China, I'm actively seeking opportunities to relocate to Singapore for my next career chapter. My academic foundation in Computer Science combined with hands-on experience in data analysis and software development makes me well-suited for dynamic, international business environments.
         </p>
       </div>
     </motion.section>
