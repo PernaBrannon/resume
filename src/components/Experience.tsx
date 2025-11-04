@@ -47,6 +47,7 @@ const Experience: React.FC = () => {
 
   return (
     <motion.section 
+      id="experience"
       className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-md rounded-lg shadow-md p-8 border border-white/20"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
