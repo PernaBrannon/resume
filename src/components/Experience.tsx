@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 
 interface ExperienceItem {
@@ -8,7 +7,7 @@ interface ExperienceItem {
   description: string[]
 }
 
-const Experience: React.FC = () => {
+const Experience = () => {
   const experiences: ExperienceItem[] = [
     {
       title: "Computer Science Student & Project Developer",

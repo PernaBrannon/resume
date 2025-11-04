@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 
 interface EducationItem {
@@ -9,7 +8,7 @@ interface EducationItem {
   details?: string[]
 }
 
-const Education: React.FC = () => {
+const Education = () => {
   const education: EducationItem[] = [
     {
       degree: "Bachelor's Degree: Computer Science - Math Minor",

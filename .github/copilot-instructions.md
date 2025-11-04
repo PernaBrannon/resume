@@ -1,32 +1,52 @@
 # React Resume Website Project
 
 ## Project Overview
-This is a modern React resume website built with:
-- React 18 with TypeScript for type safety
-- Vite for fast development and building
-- Tailwind CSS for styling
-- Responsive design with dark/light mode support
+Modern resume website with Singapore-themed parallax background built with:
+- React 18 + TypeScript for type safety
+- Vite 5 for fast development and building
+- Tailwind CSS for utility-first styling
+- Framer Motion for smooth animations
+- Multi-layer parallax scrolling system
+- Responsive design (3 images desktop, 5 mobile)
 
 ## Project Status
-✅ Project structure created  
+✅ Fully deployed and optimized  
 ✅ All components implemented  
-✅ Configuration files set up  
-✅ VS Code tasks configured  
-✅ Documentation complete  
+✅ Parallax background system complete  
+✅ Image preloading and performance optimized  
+✅ GitHub Pages deployment configured  
 
-## Next Steps
-1. Install Node.js from [nodejs.org](https://nodejs.org/) 
-2. Run `npm install` to install dependencies
-3. Run `npm run dev` to start development server
-4. Customize components with your personal information
+## Live Site
+🔗 https://pernabrannon.github.io/resume/
+
+## Quick Start
+```bash
+npm install          # Install dependencies
+npm run dev          # Start dev server
+npm run build        # Build for production
+npm run deploy       # Deploy to GitHub Pages
+```
+
+## Key Features
+- **Parallax Background**: Multi-layer Singapore images with depth effect
+- **Glass Morphism UI**: Semi-transparent components with backdrop blur
+- **Performance**: Image preloading, hardware acceleration, optimized rendering
+- **Responsive**: Adaptive layout and image count based on screen size
+- **SEO Ready**: Proper meta tags and semantic HTML
 
 ## Components
-- **Header**: Name and contact information
-- **About**: Personal bio and summary
-- **Experience**: Work history with details
-- **Education**: Educational background
-- **Skills**: Technical skills organized by category
-- **Projects**: Portfolio projects with links
+- **Header**: Mobile-responsive navigation with hamburger menu
+- **About**: Professional summary targeting Singapore opportunities
+- **Experience**: Work history with expandable details
+- **Education**: Academic background with coursework
+- **Skills**: Categorized technical skills with hover effects
+- **Projects**: Portfolio with technology stacks
 - **Contact**: Contact form and information
+- **ImagePreloader**: Optimized background image loading
 
-The project is ready for development once Node.js is installed!
+## Technical Highlights
+- Images stored in `src/assets/images/` for Vite optimization
+- Custom parallax system with variable scroll speeds
+- Responsive breakpoint at 768px for mobile/desktop
+- Fallback background to prevent gaps
+- TypeScript interfaces for all data structures

@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 
 interface Project {
@@ -9,7 +8,7 @@ interface Project {
   demo?: string
 }
 
-const Projects: React.FC = () => {
+const Projects = () => {
   const projects: Project[] = [
     {
       title: "Food Delivery App (E-commerce Data Flow)",

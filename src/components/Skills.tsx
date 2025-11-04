@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 
 interface SkillCategory {
@@ -6,7 +5,7 @@ interface SkillCategory {
   skills: string[]
 }
 
-const Skills: React.FC = () => {
+const Skills = () => {
   const skillCategories: SkillCategory[] = [
     {
       category: "Programming & Data Analysis",

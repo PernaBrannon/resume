@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import { useState, FormEvent } from 'react'
 import { motion } from 'framer-motion'
 
-const Contact: React.FC = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
     
     // Create mailto link with form data
