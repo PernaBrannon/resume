@@ -23,7 +23,8 @@ function App() {
       <motion.div 
         className="fixed top-0 left-0 w-full z-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/1280px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg')`,
+          backgroundImage: `url('https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1920&q=80'), url('/resume/images/singapore-cityscape.jpg')`,
+          backgroundColor: '#1e40af', // Blue fallback to test if element is rendering
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',
@@ -36,8 +37,8 @@ function App() {
         transition={{ type: "tween", ease: "linear" }}
       />
       
-      {/* Overlay for better text readability */}
-      <div className="fixed inset-0 w-full h-full bg-black/40 dark:bg-black/60 z-10" />
+      {/* Overlay for better text readability - lightened */}
+      <div className="fixed inset-0 w-full h-full bg-black/20 dark:bg-black/30 z-10" />
       
       {/* Content */}
       <div className="relative z-20">
