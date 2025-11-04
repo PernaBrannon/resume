@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="flex items-center space-x-3">
               <span className="text-blue-600 dark:text-blue-400">🐙</span>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/PernaBrannon" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
