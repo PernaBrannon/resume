@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import Header from './components/Header'
 import About from './components/About'
@@ -23,15 +23,15 @@ function App() {
       <motion.div 
         className="fixed top-0 left-0 w-full z-0"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2652&q=80')`,
+          backgroundImage: `linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',
-          height: '200vh', // Make background much taller than viewport
+          height: '200vh',
           minHeight: '100vh'
         }}
         animate={{
-          y: scrollY * -0.3, // Reduced parallax speed to prevent running out of image
+          y: scrollY * -0.3,
         }}
         transition={{ type: "tween", ease: "linear" }}
       />
