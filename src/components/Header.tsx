@@ -100,7 +100,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Data Analyst | Junior Software Engineer
+            Computer Science Graduate | Software, Data & Systems
           </motion.p>
           <motion.p 
             className="text-sm text-gray-500 dark:text-gray-400 mb-4"
@@ -108,7 +108,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Currently in Shenzhen, China | Seeking full-time, sponsored role in Singapore | U.S. Citizen
+            International Address | U.S. Citizen | Authorized to work in the United States without sponsorship
           </motion.p>
           <motion.div 
             className="flex flex-col md:flex-row justify-center md:space-x-4 space-y-2 md:space-y-0 text-gray-600 dark:text-gray-300"
@@ -121,21 +121,21 @@ const Header = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="text-sm md:text-base"
             >
-              📧 expressbusinessbran@icloud.com
+              📧 ExpressBusinessBran@icloud.com
             </motion.span>
             <motion.span 
               whileHover={{ scale: 1.1, color: "#3B82F6" }}
               transition={{ type: "spring", stiffness: 300 }}
               className="text-sm md:text-base"
             >
-              📱 (+86) 198-6771-2076
+              📱 +8619867712076
             </motion.span>
             <motion.span 
               whileHover={{ scale: 1.1, color: "#3B82F6" }}
               transition={{ type: "spring", stiffness: 300 }}
               className="text-sm md:text-base"
             >
-              📍 Shenzhen, China
+              📍 International Address
             </motion.span>
           </motion.div>
         </div>

@@ -11,23 +11,20 @@ interface EducationItem {
 const Education = () => {
   const education: EducationItem[] = [
     {
-      degree: "Bachelor's Degree: Computer Science - Math Minor",
-      school: "Rutgers University",
+      degree: "Bachelor of Science in Computer Science, Minor in Mathematics",
+      school: "Rutgers University–Newark",
       location: "Newark, NJ",
-      period: "Spring 2023",
+      period: "2024",
       details: [
-        "Advanced Data Structures",
-        "Programming Language Concepts", 
-        "Intro to Machine Learning & AI",
-        "Cloud Computing",
-        "Software Engineering"
+        "Data Structures & Algorithms",
+        "Database Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Computer Architecture",
+        "Discrete Mathematics",
+        "Calculus"
       ]
-    },
-    {
-      degree: "Associates Degree: Computer Science",
-      school: "Salem Community College",
-      location: "Carneys Point, NJ",
-      period: "Spring 2020"
     }
   ]
 
@@ -67,6 +64,14 @@ const Education = () => {
             )}
           </div>
         ))}
+      </div>
+      <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-6">
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Additional</h3>
+        <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+          <li><span className="font-medium">Work Authorization:</span> U.S. Citizen — authorized to work in the United States without sponsorship.</li>
+          <li><span className="font-medium">Certification:</span> TEFL Certified</li>
+          <li><span className="font-medium">Languages:</span> English (Native), Mandarin (A2)</li>
+        </ul>
       </div>
     </motion.section>
   )

@@ -16,7 +16,7 @@ const Contact = () => {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )
-    const mailtoLink = `mailto:expressbusinessbran@icloud.com?subject=${subject}&body=${body}`
+    const mailtoLink = `mailto:ExpressBusinessBran@icloud.com?subject=${subject}&body=${body}`
     
     // Open user's email client
     window.location.href = mailtoLink
@@ -40,16 +40,16 @@ const Contact = () => {
             Get In Touch
           </h3>
           <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-            I'm actively seeking full-time, sponsored opportunities in Singapore as a Data Analyst or Junior Software Engineer. Currently based in Shenzhen, China, I'm ready to relocate and contribute to an international MNC environment. Feel free to reach out to discuss potential opportunities!
+            I'm seeking an entry-level role in systems, software, data, or technical operations. Feel free to reach out to discuss opportunities and collaborations.
           </p>
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
               <span className="text-blue-600 dark:text-blue-400">📧</span>
               <a 
-                href="mailto:expressbusinessbran@icloud.com" 
+                href="mailto:ExpressBusinessBran@icloud.com" 
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               >
-                expressbusinessbran@icloud.com
+                ExpressBusinessBran@icloud.com
               </a>
             </div>
             <div className="flex items-center space-x-3">
@@ -77,8 +77,18 @@ const Contact = () => {
             <div className="flex items-center space-x-3">
               <span className="text-blue-600 dark:text-blue-400">📱</span>
               <span className="text-gray-700 dark:text-gray-300">
-                (+86) 198-6771-2076
+                +8619867712076
               </span>
+            </div>
+            <div className="flex items-center space-x-3">
+              <span className="text-blue-600 dark:text-blue-400">📄</span>
+              <a
+                href={`${import.meta.env.BASE_URL}PernaResume.pdf`}
+                download="PernaResume.pdf"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
+              >
+                Download Formal Resume
+              </a>
             </div>
           </div>
         </div>

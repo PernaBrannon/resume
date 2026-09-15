@@ -11,19 +11,14 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Food Delivery App (E-commerce Data Flow)",
-      description: "Designed and implemented a robust MySQL relational database schema to manage the transactional flow of a simulated e-commerce platform, handling user carts, inventory, and order processing. Utilized Git for version control and collaborated with a team to ensure synchronized development of the database and PHP server logic.",
-      technologies: ["MySQL", "PHP", "Git", "Database Design", "SQL Optimization", "Team Collaboration"]
+      title: "Munin Global — Business Technology Platform",
+      description: "Designed and developed a web platform for an international recruitment and education business using PostgreSQL and Supabase. Built customer-facing workflows, an internal employee portal, third-party API integrations, authentication, access control, cloud deployment, DNS, and production environment configuration.",
+      technologies: ["PostgreSQL", "Supabase", "REST APIs", "Authentication", "Vercel", "Cloudflare"]
     },
     {
-      title: "Class Organizer Data Management System",
-      description: "Engineered a structured data management system that applied principles of data indexing and retrieval logic to optimize search performance across multiple user-defined criteria. Demonstrated high-efficiency data structuring by designing input and query methods that reduced latency in information access.",
-      technologies: ["Data Structures", "Algorithms", "Search Optimization", "Database Indexing"]
-    },
-    {
-      title: "BlackJack Logic & Rule Implementation",
-      description: "Developed a full-stack web application to model a system requiring intricate, rule-based processing and handling of multiple concurrent states. Exercised algorithmic problem-solving to translate complex business rules (game logic and exceptions) into precise, functional JavaScript.",
-      technologies: ["JavaScript", "HTML", "CSS", "State Management", "Game Logic", "Full-Stack Development"]
+      title: "Lab Meal Prep — Delivery App MVP",
+      description: "Developed a full-stack Android delivery app for a New York City startup, including RESTful backend endpoints for authentication and product management, SQL-based data storage, and PayPal API payment integration. Led a three-person development team that built approximately 70% of the MVP in two months.",
+      technologies: ["Android", "REST APIs", "SQL", "PayPal API", "Authentication", "Team Leadership"]
     }
   ]
 

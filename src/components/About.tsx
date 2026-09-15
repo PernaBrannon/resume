@@ -13,10 +13,10 @@ const About = () => {
       <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
       <div className="space-y-4 text-gray-700 dark:text-gray-300">
         <p className="text-lg leading-relaxed">
-          Seeking full-time, sponsored Data Analyst or Junior Software Engineer role in Singapore. Recent Computer Science graduate with proven capacity to leverage advanced Python (NumPy, Pandas, Scikit-learn) and SQL to transform complex, raw data into actionable financial/business intelligence. Possesses practical experience with AWS cloud databases and Git version control, ready to contribute immediately to an MNC environment.
+          Computer Science graduate from Rutgers University–Newark with a Mathematics minor and hands-on experience building web applications, database systems, API integrations, and cloud-hosted infrastructure. Strong foundation in Python, SQL, Linux, PostgreSQL, and web technologies.
         </p>
         <p className="text-lg leading-relaxed">
-          Currently based in Shenzhen, China, I'm actively seeking opportunities to relocate to Singapore for my next career chapter. My academic foundation in Computer Science combined with hands-on experience in data analysis and software development makes me well-suited for dynamic, international business environments.
+          Experienced in translating business requirements into technical solutions and using AI-assisted development tools to build and iterate on applications. Seeking an entry-level role in systems, software, data, or technical operations.
         </p>
       </div>
     </motion.section>
